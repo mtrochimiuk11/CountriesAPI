@@ -1,0 +1,10 @@
+.mainPage {
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (min-width: 2000px) {
+  .mainPage {
+    align-items: center;
+  }
+}

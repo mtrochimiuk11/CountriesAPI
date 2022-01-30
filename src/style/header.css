@@ -1,0 +1,22 @@
+.header {
+  height: 70px;
+  background-color: white;
+  -webkit-box-shadow: 0px -7px 35px -6px rgba(66, 68, 90, 0.17);
+          box-shadow: 0px -7px 35px -6px rgba(66, 68, 90, 0.17);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 20px;
+  margin-bottom: 30px;
+}
+
+.header__title {
+  font-size: 1.2em;
+}
+/*# sourceMappingURL=header.css.map */

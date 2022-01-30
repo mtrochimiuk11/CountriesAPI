@@ -1,0 +1,80 @@
+.filter {
+  max-width: 2000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 15px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.filter > * {
+  height: 50px;
+  border: 5px solid white;
+  -webkit-box-shadow: 0px 2px 10px -1px rgba(66, 68, 90, 0.17);
+          box-shadow: 0px 2px 10px -1px rgba(66, 68, 90, 0.17);
+}
+
+.filter__list {
+  width: 50vw;
+  margin-top: 45px;
+}
+
+.filter__input {
+  width: 90vw;
+}
+
+@media all and (min-width: 1000px) {
+  .filter {
+    margin: 15px 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .filter__input {
+    width: 500px;
+  }
+  .filter__list {
+    margin: 0px;
+    width: 350px;
+  }
+}
+
+@media all and (min-width: 2000px) {
+  .filter {
+    width: 1900px;
+    margin: 15px 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .filter__input {
+    width: 700px;
+  }
+  .filter__list {
+    margin: 0px;
+    width: 350px;
+  }
+}
+/*# sourceMappingURL=filter.css.map */

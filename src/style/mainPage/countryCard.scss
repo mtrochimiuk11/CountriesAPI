@@ -1,0 +1,103 @@
+.App {
+  font-family: "Nunito Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.card {
+  max-width: 2000px;
+  display: flex;
+  flex-direction: unset;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  &__wrapper {
+    color: hsl(200, 15%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    width: clamp(100px, 380px, 400px);
+    margin: 30px 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 11px 2px rgba(66, 68, 90, 0.14);
+  }
+  &__flag {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  &__name {
+    margin-top: 35px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    text-align: left;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-weight: bold;
+    color: hsl(200, 15%, 8%);
+    text-decoration: none;
+  }
+  &__info {
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    line-height: 1px;
+    & > * {
+      width: max-content;
+    }
+
+    &--title {
+      font-weight: 600;
+      margin: 3px;
+    }
+  }
+}
+
+// .card {
+//   &__flag {
+//     border-top-left-radius: 10px;
+//     border-top-right-radius: 10px;
+//   }
+//   &__name {
+//     margin-top: 35px;
+//     margin-bottom: 5px;
+//     margin-left: 25px;
+//     text-align: left;
+//     display: block;
+//     font-size: 1.5em;
+//     margin-block-start: 0.83em;
+//     margin-block-end: 0.83em;
+//     font-weight: bold;
+//     color: hsl(200, 15%, 8%);
+//     text-decoration: none;
+//   }
+//   &__info {
+//     font-size: 17px;
+//     display: flex;
+//     flex-direction: column;
+//     margin-left: 25px;
+//     margin-bottom: 30px;
+//     line-height: 1px;
+//     & > * {
+//       width: max-content;
+//     }
+
+//     &--title {
+//       font-weight: 600;
+//       margin: 3px;
+//     }
+//   }
+// }
+
+@media all and (min-width: 1200px) {
+  .card {
+    margin: 0px 20px;
+  }
+}

@@ -1,0 +1,13 @@
+.header {
+  height: 70px;
+  background-color: white;
+  box-shadow: 0px -7px 35px -6px rgba(66, 68, 90, 0.17);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  margin-bottom: 30px;
+  &__title {
+    font-size: 1.2em;
+  }
+}
